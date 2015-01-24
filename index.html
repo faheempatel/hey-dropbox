@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>hey, dropbox</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="" style="margin-top: 10%">
+        <div class="logo">
+          <img width="30px" height="30px" src="https://cf.dropboxstatic.com/static/images/brand/glyph-vflK-Wlfk.png">
+        </div>
+        <input placeholder=Search class=animated-search-filter>
+        <div class="search-box">
+          <i class="fa fa-microphone"></i>
+        </div>
+        <div id="result"></div>
+        <div id="info"></div>
+        <div id="error"></div>
+        <div class="files">
+          <ul class="animated-search-filter">
+          </ul>
+          <!--<div class="one-third column image-file">x</div>
+          <div class="one-third column image-file">x</div>
+          <div class="one-third column image-file">x</div>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/velocity/velocity.min.js"></script>
+<script src="bower_components/velocity/velocity.ui.min.js"></script>
+<script src="bower_components/lodash/lodash.min.js"></script>
+<script src="bower_components/microphone/microphone.min.js"></script>
+
+<script src="./animated-search-filter.js"></script>
+<script src="./main.js"></script>
+<script src="./animations.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
